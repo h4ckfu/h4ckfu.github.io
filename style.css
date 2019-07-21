@@ -10449,18 +10449,17 @@ body {
 
 .checkbox label, .text-muted{font-size: .9em;}
 
-.btn-lg, btn-block{
-	margin-top: 0;
-}
+/* It's all about the buttons */
 
-.rounded-circle{
-	float: left;
-	margin: 0 5px 10px 0;
-}
+.btn-lg, btn-block{	margin-top: 0;}
+.btn-secondary{border:none;}
 
-ul.timeline a{
-	font-weight:600;
-}
+
+.rounded-circle{float: left; margin: 0 5px 10px 0;}
+
+/* Timeline Style - me not bootstrap */
+
+ul.timeline a{font-weight:600;}
 
 ul.timeline {
     list-style-type: none;
@@ -10478,7 +10477,7 @@ ul.timeline > li {
 }
 
 .timeline-text{
-	font-size:.9em;
+	font-size:.85em;
 }
 
 .timeline-text img{
@@ -10495,10 +10494,8 @@ ul.timeline > li {
 	font-size:.75em;
 }
 
-
 .card{margin-top:1em;}
 
-.btn-secondary{border:none;}
 
 /* cool checkbox / switch deal */
 
