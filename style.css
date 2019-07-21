@@ -10435,10 +10435,16 @@ body {
 	border-radius: 5px;
 }
 
-.profile{margin-top:1em;
+/* Profile is me not BootStrap then */
+
+.profile{
+	margin:1em 0 1em 0;
 	background-color: #f5f8fa;
 	padding:1em 1em .25em 1em;
 	border-radius: 5px;
+}
+
+.profile img{
 }
 
 #inputEmail, #inputPassword{
@@ -10456,6 +10462,7 @@ body {
 
 
 .rounded-circle{float: left; margin: 0 5px 10px 0;}
+
 
 /* Timeline Style - me not bootstrap */
 
