@@ -10622,8 +10622,12 @@ ul.social-icons{
 /* Profile is me not BootStrap then */
 
 .issues{
-	margin: 2em 1em 1em 1em;
+	margin: .5em 1em 0 1em;
+	padding: .5em 0 1em 0;
+	border-bottom: 1px solid #e6ecf0;
 }
+
+.issues .text-muted{font-size:.8em;} 
 
 .slogan{
 	margin-left:1em;
